@@ -1,24 +1,24 @@
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 import vueLogo from './assets/vue.svg'
-import style from "./app.module.css"
+import style from './app.module.css'
 
 export default defineComponent({
-  name: "App",
+  name: 'App',
 
   setup() {
     return () => (
-      <div id="app">
+      <div id='app'>
         <div>
-          <a href="https://vitejs.dev" target="_blank">
-            <img src="/vite.svg" class={style.logo} alt="Vite logo" />
+          <a href='https://vitejs.dev' target='_blank'>
+            <img src='/vite.svg' class={style.logo} alt='Vite logo' />
           </a>
-          <a href="https://vuejs.org/" target="_blank">
-            <img src={vueLogo} class={[style.logo, style.vue]} alt="Vue logo" />
+          <a href='https://vuejs.org/' target='_blank'>
+            <img src={vueLogo} class={[style.logo, style.vue]} alt='Vue logo' />
           </a>
         </div>
-        <HelloWorld msg="Vite + Vue2.7" />
+        <HelloWorld msg='Vite + Vue2.7' />
       </div>
     )
-  }
-});
+  },
+})
