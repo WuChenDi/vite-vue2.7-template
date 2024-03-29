@@ -1,8 +1,8 @@
 {
   "name": "vite-vue2.7-template",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -13,9 +13,11 @@
     "vue": "2.7.16"
   },
   "devDependencies": {
+    "@cdlab996/eslint-config-vue": "0.0.6-beta.4",
     "@cdlab996/prettier-config": "^0.0.5",
     "@vitejs/plugin-vue2": "^2.3.1",
     "@vitejs/plugin-vue2-jsx": "^1.1.1",
+    "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "typescript": "^5.4.3",
     "vite": "^5.2.6",
