@@ -1,3 +1,3 @@
 module.exports = {
-  extends: '@cdlab996/eslint-config-vue',
+  extends: '@cdlab996/eslint-config-vue2',
 }
