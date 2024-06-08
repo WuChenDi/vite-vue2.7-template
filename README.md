@@ -1,12 +1,17 @@
-# Vue 2.7 + TypeScript + Vite
+# 🚀 Vite-Vue2.7-Template
 
-This template should help get you started developing with Vue 2.7 and TypeScript in Vite. The template uses Vue 2.7 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a development template for `Vue 2.7` + `TypeScript`, providing you with a swiftly initiated developmental environment.
 
-## Recommended Setup
+```sh
+# Node.js version: >= 18.20.3 (LTS)
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+git clone https://github.com/WuChenDi/vite-vue2.7-template.git
+pnpm install
+pnpm run dev
+pnpm run build
+```
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+For details regarding `@cdlab996/eslint-config-vue2` and `@cdlab996/prettier-config`, please refer to [this link](https://github.com/WuChenDi/eslint-config-monorepo) 🔍
 
 ## 📜 License
 

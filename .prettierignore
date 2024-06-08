@@ -3,6 +3,6 @@
 .vscode
 dist
 node_modules
-pnpm-lock.yaml
+**/*.yaml
 **/*.json
 public

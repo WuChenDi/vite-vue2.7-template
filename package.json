@@ -3,24 +3,37 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "description": "🎉 A simple start for using vue2.7 with vite",
+  "author": "wudi",
+  "repository": {
+    "type": "git",
+    "url": "http://39.108.189.115:81/playlet/frontend/component-library.git"
+  },
+  "engines": {
+    "node": ">=18.20.3",
+    "pnpm": ">=9.1.1"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "prettier:write": "prettier --write \"./src/**/*.{ts,tsx}\" \"./vite.config.ts\""
+    "lint": "eslint ./src/**/*.{vue,ts,tsx}",
+    "lint:fix": "eslint ./src/**/*.{vue,ts,tsx} --fix",
+    "format": "prettier --check \"./src/**/*.{vue,ts,tsx}\"",
+    "format:fail": "prettier --check --write \"./src/**/*.{vue,ts,tsx}\" \"./vite.config.ts\""
   },
   "dependencies": {
     "vue": "2.7.16"
   },
   "devDependencies": {
-    "@cdlab996/eslint-config-vue": "0.0.6-beta.4",
-    "@cdlab996/prettier-config": "^0.0.5",
-    "@vitejs/plugin-vue2": "^2.3.1",
-    "@vitejs/plugin-vue2-jsx": "^1.1.1",
-    "eslint": "^8.57.0",
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.3",
-    "vite": "^5.2.6",
-    "vue-tsc": "^1"
+    "@cdlab996/eslint-config-vue2": "0.0.13",
+    "@cdlab996/prettier-config": "0.0.13",
+    "@vitejs/plugin-vue2": "2.3.1",
+    "@vitejs/plugin-vue2-jsx": "1.1.1",
+    "eslint": "8.57.0",
+    "prettier": "3.3.1",
+    "typescript": "5.4.5",
+    "vite": "5.2.11",
+    "vue-tsc": "2.0.6"
   }
 }
