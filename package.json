@@ -7,7 +7,7 @@
   "author": "wudi",
   "repository": {
     "type": "git",
-    "url": "http://39.108.189.115:81/playlet/frontend/component-library.git"
+    "url": "https://github.com/WuChenDi/vite-vue2.7-template.git"
   },
   "engines": {
     "node": ">=18.20.3",
