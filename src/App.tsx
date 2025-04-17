@@ -17,7 +17,7 @@ export default defineComponent({
             <img src={vueLogo} class={[style.logo, style.vue]} alt='Vue logo' />
           </a>
         </div>
-        <HelloWorld msg='Vite + Vue2.7' />
+        <HelloWorld msg='Vite5 + Vue2.7' />
       </div>
     )
   },
