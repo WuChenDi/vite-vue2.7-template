@@ -28,12 +28,12 @@
   "devDependencies": {
     "@cdlab996/eslint-config-vue2": "0.0.13",
     "@cdlab996/prettier-config": "0.0.13",
-    "@vitejs/plugin-vue2": "2.3.1",
+    "@vitejs/plugin-vue2": "2.3.3",
     "@vitejs/plugin-vue2-jsx": "1.1.1",
     "eslint": "8.57.0",
-    "prettier": "3.3.1",
-    "typescript": "5.4.5",
-    "vite": "5.2.11",
-    "vue-tsc": "2.0.6"
+    "prettier": "3.5.3",
+    "typescript": "5.8.3",
+    "vite": "5.4.11",
+    "vue-tsc": "2.2.8"
   }
 }
