@@ -23,7 +23,7 @@
     "format:fail": "prettier --check --write \"./src/**/*.{vue,ts,tsx}\" \"./vite.config.ts\""
   },
   "dependencies": {
-    "vue": "2.7.16"
+    "vue": "3.0.0"
   },
   "devDependencies": {
     "@cdlab996/eslint-config-vue2": "0.0.13",
